@@ -41,6 +41,14 @@ This resulted in GPT outputting around 15 products, followed by passive persuasi
 This process created a database of around 50 product features which will then be used to train the LLM.
 
 # Training LLM
+Here, I used the LangChain framework to divide the text into chunks which will later be used for document similarity search, upon receiving input from user.
+The following diagram illustrates the process of training LLM with the custom document data, involving similarity search, and feeding the input and similar docs to LLM to receive a response, which answers the user's question.
+
+![document-llm-architecture](https://github.com/harikanaidu/Custom_BestBuy_ChatGPT_bot_with_LangChain.ipynb/assets/39033527/22683d50-09cb-4012-9fec-8b32c019062b)
+
+# Results
+
+<img width="1143" alt="Screenshot 2023-10-14 at 3 36 43 PM" src="https://github.com/harikanaidu/Custom_BestBuy_ChatGPT_bot_with_LangChain.ipynb/assets/39033527/73d41e54-8a2a-4845-aba9-024b1e987f54">
 
 
 
